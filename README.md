@@ -52,8 +52,8 @@ O projeto implementa 16 planos de teste que cobrem todas as funcionalidades crí
 
 ### Clone o projeto
 ```bash
-git clone [URL do repositório]
-cd [pasta do projeto]
+git clone https://github.com/AndreyNovaes/desafio_tecnico_qa_andrey_de_novaes_ferreira.git
+cd desafio_tecnico_qa_andrey_de_novaes_ferreira
 ```
 
 ### Configuração do ambiente virtual (opcional mas recomendado)
