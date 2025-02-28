@@ -99,7 +99,7 @@ services:
 
   chrome-puller:
     image: docker:latest
-    command: docker pull selenoid/vnc_chrome:128.0
+    command: selenoid/chrome:latest
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
