@@ -67,7 +67,6 @@ venv\Scripts\activate
 # No Linux/Mac:
 source venv/bin/activate
 
-# Instalar dependências, no caso do run_tests, é utilizado os containeres então não é necessário
 pip install -r requirements.txt
 ```
 
