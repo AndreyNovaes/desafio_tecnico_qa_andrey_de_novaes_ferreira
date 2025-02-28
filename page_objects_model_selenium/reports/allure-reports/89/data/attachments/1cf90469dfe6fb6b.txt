@@ -1,0 +1,7 @@
+INFO     utils.webdriver_factory:webdriver_factory.py:90 Detected Docker environment - using web:8000
+INFO     utils.webdriver_factory:webdriver_factory.py:156 Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+WARNING  utils.webdriver_factory:webdriver_factory.py:121 Error connecting to Selenoid: HTTPConnectionPool(host='selenoid', port=4444): Max retries exceeded with url: /status (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb82fa6fa00>: Failed to resolve 'selenoid' ([Errno -2] Name or service not known)"))
+WARNING  utils.webdriver_factory:webdriver_factory.py:162 Could not verify Selenoid connection at http://selenoid:4444/wd/hub
+WARNING  utils.webdriver_factory:webdriver_factory.py:163 Proceeding anyway, but this might cause issues
+INFO     utils.webdriver_factory:webdriver_factory.py:314 Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+INFO     utils.webdriver_factory:webdriver_factory.py:195 Created chrome latest WebDriver instance successfully with session ID: 4519272f84afcc2e770c25f38cb14045

@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV FLASK_APP=main.py
+ENV PORT=3001
+ENV FLASK_DEBUG=false
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    gcc \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY faker_requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN mkdir -p /app/logs
+
+COPY . .
+
+EXPOSE 3001
+
+CMD ["python", "faker/main.py"]

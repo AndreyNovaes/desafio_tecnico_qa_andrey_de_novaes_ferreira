@@ -1,0 +1,10 @@
+{
+  "session_id": "abf17447ddb2739e07b96bed19774a10",
+  "test_name": "test_dashboard_acesso_nao_autenticado[chrome]",
+  "clean_test_name": "test_dashboard_acesso_nao_autenticado_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_020040",
+  "url": "data:,",
+  "title": ""
+}

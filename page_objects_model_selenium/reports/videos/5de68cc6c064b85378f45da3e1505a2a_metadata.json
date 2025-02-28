@@ -1,0 +1,10 @@
+{
+  "session_id": "5de68cc6c064b85378f45da3e1505a2a",
+  "test_name": "test_basic_setup[chrome]",
+  "clean_test_name": "test_basic_setup_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_014441",
+  "url": "data:,",
+  "title": ""
+}

@@ -1,0 +1,8 @@
+2025-02-28 01:54:16,991 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 01:54:16,993 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 01:54:16,993 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 01:54:16,993 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 01:54:18,230 - utils.webdriver_factory - INFO - Created chrome latest WebDriver instance successfully with session ID: 9b1874f9ae85b968cd5420088cf174b7
+2025-02-28 01:54:18,575 - utils.faker_api_client - INFO - Making request to http://faker:5000/generate/user with params: {'quantity': 1, 'invalid': 'false'}
+2025-02-28 01:54:18,578 - utils.faker_api_client - INFO - Received response from http://faker:5000/generate/user with status code: 200
+2025-02-28 01:54:18,578 - utils.test_data - INFO - Using Faker API generated user: icorreia

@@ -1,0 +1,7 @@
+INFO     utils.webdriver_factory:webdriver_factory.py:156 Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+INFO     utils.webdriver_factory:webdriver_factory.py:114 Selenoid is accessible at http://selenoid:4444/status
+INFO     utils.webdriver_factory:webdriver_factory.py:115 Selenoid version: unknown
+INFO     utils.webdriver_factory:webdriver_factory.py:314 Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+INFO     utils.webdriver_factory:webdriver_factory.py:195 Created chrome latest WebDriver instance successfully with session ID: 9f4cca82840a9ee5bc7e3fd11df4f352
+INFO     utils.test_data:test_data.py:28 Using saved user data for: camila1976
+ERROR    DashboardPage:base_page.py:24 Element not found: ('css selector', 'h3.text-center.fw-bold')

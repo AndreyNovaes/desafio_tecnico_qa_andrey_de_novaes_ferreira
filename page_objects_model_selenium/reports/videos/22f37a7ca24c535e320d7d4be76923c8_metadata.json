@@ -1,0 +1,10 @@
+{
+  "session_id": "22f37a7ca24c535e320d7d4be76923c8",
+  "test_name": "test_forgot_password_email_nao_cadastrado[chrome]",
+  "clean_test_name": "test_forgot_password_email_nao_cadastrado_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_015325",
+  "url": "data:,",
+  "title": ""
+}

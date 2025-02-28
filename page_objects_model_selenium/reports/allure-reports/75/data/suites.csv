@@ -1,0 +1,50 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 28 01:52:56 UTC 2025","Fri Feb 28 01:52:59 UTC 2025","3119","tests","login_credenciais_vazias_test","","","","test_login_campos_em_branco[chrome]","
+    TP-3: Login - Campos em Branco
+    
+    Objetivo:
+    - Garantir que o sistema não permita login com campos obrigatórios vazios.
+    - Verificar mensagens de validação adequadas.
+    
+    Critérios de Aceite:
+    - Nenhum acesso concedido.
+    - Mensagem clara de ""Campos obrigatórios"" ou similar é exibida.
+    "
+"passed","Fri Feb 28 01:55:11 UTC 2025","Fri Feb 28 01:55:12 UTC 2025","1635","tests","register_cadastro_sucesso_test","","","","test_register_cadastro_sucesso[chrome]","TP-6: Register - Cadastro com Sucesso"
+"passed","Fri Feb 28 01:54:44 UTC 2025","Fri Feb 28 01:54:44 UTC 2025","786","tests","login_link_registro_test","","","","test_login_link_registro[chrome]","TP-5: Login - Link de Registro"
+"skipped","Fri Feb 28 01:45:30 UTC 2025","Fri Feb 28 01:45:30 UTC 2025","0","tests","register_username_existente_test","","","","test_register_username_existente[chrome]","TP-7: Register - Username já Existente"
+"passed","Fri Feb 28 01:53:49 UTC 2025","Fri Feb 28 01:53:50 UTC 2025","686","tests","login_esqueci_senha_envio_email_test","","","","test_forgot_password_envio_email[chrome]","TP-11: Forgot Password - Envio de Email"
+"failed","Fri Feb 28 01:56:11 UTC 2025","Fri Feb 28 01:56:22 UTC 2025","11485","tests","register_email_existente_test","","","","test_register_email_existente[chrome]","TP-8: Register - Email já Existente"
+"failed","Fri Feb 28 01:52:28 UTC 2025","Fri Feb 28 01:52:29 UTC 2025","784","tests","login_credenciais_validas_test","","","","test_login_credenciais_validas[chrome]","
+    TP-1: Login - Credenciais Validas
+    
+    Objetivo:
+    - Verificar se o login ocorre com sucesso quando as credenciais estão corretas.
+    - Garantir que o usuário é redirecionado à página principal ou dashboard.
+    
+    Critérios de Aceite:
+    - Usuário deve ser direcionado ao dashboard.
+    - Navbar ou similar deve exibir que o usuário está logado (ex.: ""Logout"").
+    "
+"failed","Fri Feb 28 01:49:51 UTC 2025","Fri Feb 28 01:49:52 UTC 2025","795","tests","dashboard_acesso_autenticado_test","","","","test_dashboard_acesso_autenticado[chrome]","TP-13: Dashboard - Acesso Autenticado"
+"broken","Fri Feb 28 01:49:24 UTC 2025","Fri Feb 28 01:49:24 UTC 2025","0","tests","basic_test","TestBasic","","","test_intentional_failure[chrome]","Test that intentionally fails to demonstrate failure handling"
+"broken","Fri Feb 28 01:59:08 UTC 2025","Fri Feb 28 01:59:08 UTC 2025","0","tests","basic_test","TestBasic","","","test_basic_setup[chrome]","Basic test to verify setup is working"
+"passed","Fri Feb 28 01:53:25 UTC 2025","Fri Feb 28 01:53:26 UTC 2025","682","tests","login_esqueci_senha_email_invalido_test","","","","test_forgot_password_email_nao_cadastrado[chrome]","TP-12: Forgot Password - Email Não Cadastrado"
+"passed","Fri Feb 28 01:51:50 UTC 2025","Fri Feb 28 01:52:02 UTC 2025","11548","tests","login_credenciais_invalidas_test","","","","test_login_senha_invalida[chrome]","
+    TP-2: Login - Senha Invalida
+    
+    Objetivo:
+    - Validar o comportamento do sistema ao inserir senha incorreta.
+    - Verificar exibição de mensagem de erro e prevenção de acesso não autorizado.
+    
+    Critérios de Aceite:
+    - Sem redirecionamento para áreas autenticadas.
+    - Mensagem de erro clara é exibida.
+    "
+"skipped","Fri Feb 28 00:46:48 UTC 2025","Fri Feb 28 00:46:48 UTC 2025","0","","","","","","test_basic_setup[chrome]","Basic test to verify setup is working"
+"passed","Fri Feb 28 01:51:23 UTC 2025","Fri Feb 28 01:51:24 UTC 2025","652","tests","home_não_autenticado_test","","","","test_home_elementos_nao_autenticado[chrome]","TP-15: Home - Elementos para Usuário Não Autenticado"
+"failed","Fri Feb 28 01:56:49 UTC 2025","Fri Feb 28 01:57:00 UTC 2025","11546","tests","register_senhas_diferentes_test","","","","test_register_senhas_diferentes[chrome]","TP-9: Register - Senhas Diferentes"
+"broken","Fri Feb 28 01:50:18 UTC 2025","Fri Feb 28 01:50:30 UTC 2025","11596","tests","dashboard_acesso_não_autenticado_test","","","","test_dashboard_acesso_nao_autenticado[chrome]","TP-14: Dashboard - Tentativa de Acesso Não Autenticado"
+"passed","Fri Feb 28 01:55:39 UTC 2025","Fri Feb 28 01:55:44 UTC 2025","5718","tests","register_campos_em_branco_test","","","","test_register_campos_branco[chrome]","TP-10: Register - Campos em Branco"
+"passed","Fri Feb 28 01:54:18 UTC 2025","Fri Feb 28 01:54:19 UTC 2025","711","tests","login_esqueci_senha_test_email_valido_test","","","","test_login_esqueci_senha[chrome]","TP-4: Login - Esqueci Minha Senha"
+"failed","Fri Feb 28 01:50:56 UTC 2025","Fri Feb 28 01:50:56 UTC 2025","569","tests","home_autenticado_test","","","","test_home_elementos_autenticado[chrome]","TP-16: Home - Elementos para Usuário Autenticado"

@@ -1,0 +1,5 @@
+2025-02-28 01:54:42,662 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 01:54:42,663 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 01:54:42,663 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 01:54:42,664 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 01:54:43,752 - utils.webdriver_factory - INFO - Created chrome latest WebDriver instance successfully with session ID: d5cd8066f2a1d6202e8321e9a6c6ccb6

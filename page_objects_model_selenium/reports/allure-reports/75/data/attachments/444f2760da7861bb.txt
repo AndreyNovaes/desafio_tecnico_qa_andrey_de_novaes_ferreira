@@ -1,0 +1,9 @@
+INFO     utils.webdriver_factory:webdriver_factory.py:156 Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+INFO     utils.webdriver_factory:webdriver_factory.py:114 Selenoid is accessible at http://selenoid:4444/status
+INFO     utils.webdriver_factory:webdriver_factory.py:115 Selenoid version: unknown
+INFO     utils.webdriver_factory:webdriver_factory.py:314 Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+INFO     utils.webdriver_factory:webdriver_factory.py:195 Created chrome latest WebDriver instance successfully with session ID: d568e12afb91c08cf7c23526c6dfdbab
+INFO     utils.faker_api_client:faker_api_client.py:29 Making request to http://faker:5000/generate/user with params: {'quantity': 1, 'invalid': 'false'}
+INFO     utils.faker_api_client:faker_api_client.py:34 Received response from http://faker:5000/generate/user with status code: 200
+INFO     utils.test_data:test_data.py:37 Using Faker API generated user: pedro.da cruz
+ERROR    DashboardPage:base_page.py:24 Element not found: ('css selector', "a.nav-link.btn.btn-outline-danger.text-danger[href='/accounts/logout/']")

@@ -1,0 +1,10 @@
+{
+  "session_id": "fbdec3e07c59b8710194a49ca22e979d",
+  "test_name": "test_home_elementos_nao_autenticado[chrome]",
+  "clean_test_name": "test_home_elementos_nao_autenticado_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_020221",
+  "url": "data:,",
+  "title": ""
+}

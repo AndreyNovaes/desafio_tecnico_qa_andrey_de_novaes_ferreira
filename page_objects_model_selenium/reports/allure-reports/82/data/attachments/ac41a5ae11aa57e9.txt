@@ -1,0 +1,9 @@
+INFO     utils.webdriver_factory:webdriver_factory.py:156 Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+INFO     utils.webdriver_factory:webdriver_factory.py:114 Selenoid is accessible at http://selenoid:4444/status
+INFO     utils.webdriver_factory:webdriver_factory.py:115 Selenoid version: unknown
+INFO     utils.webdriver_factory:webdriver_factory.py:314 Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+ERROR    utils.webdriver_factory:webdriver_factory.py:321 Failed to create Remote WebDriver: Message: wait: http://172.17.0.2:4444/ does not respond in 30s
+
+INFO     utils.webdriver_factory:webdriver_factory.py:326 Selenoid status response: 200
+INFO     utils.webdriver_factory:webdriver_factory.py:327 Response content: b'{"total":8,"used":0,"queued":0,"pending":1,"browsers":{"chrome":{"latest":{}}}}\n'...
+ERROR    utils.webdriver_factory:webdriver_factory.py:201 Failed to create WebDriver: Message: wait: http://172.17.0.2:4444/ does not respond in 30s

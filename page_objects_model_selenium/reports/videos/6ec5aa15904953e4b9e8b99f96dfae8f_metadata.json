@@ -1,0 +1,10 @@
+{
+  "session_id": "6ec5aa15904953e4b9e8b99f96dfae8f",
+  "test_name": "test_register_email_existente[chrome]",
+  "clean_test_name": "test_register_email_existente_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_015611",
+  "url": "data:,",
+  "title": ""
+}

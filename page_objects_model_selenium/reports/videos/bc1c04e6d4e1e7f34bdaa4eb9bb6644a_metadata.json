@@ -1,0 +1,10 @@
+{
+  "session_id": "bc1c04e6d4e1e7f34bdaa4eb9bb6644a",
+  "test_name": "test_forgot_password_envio_email[chrome]",
+  "clean_test_name": "test_forgot_password_envio_email_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_015349",
+  "url": "data:,",
+  "title": ""
+}

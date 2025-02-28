@@ -1,0 +1,11 @@
+2025-02-28 00:59:32,223 - utils.webdriver_factory - INFO - Detected Docker environment - using web:8000
+2025-02-28 00:59:32,243 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 00:59:32,245 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 00:59:32,245 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 00:59:32,245 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 01:00:06,824 - utils.webdriver_factory - ERROR - Failed to create Remote WebDriver: Message: wait: http://172.17.0.2:4444/ does not respond in 30s
+
+2025-02-28 01:00:06,827 - utils.webdriver_factory - INFO - Selenoid status response: 200
+2025-02-28 01:00:06,827 - utils.webdriver_factory - INFO - Response content: b'{"total":8,"used":0,"queued":0,"pending":1,"browsers":{"chrome":{"latest":{}}}}\n'...
+2025-02-28 01:00:06,828 - utils.webdriver_factory - ERROR - Failed to create WebDriver: Message: wait: http://172.17.0.2:4444/ does not respond in 30s
+

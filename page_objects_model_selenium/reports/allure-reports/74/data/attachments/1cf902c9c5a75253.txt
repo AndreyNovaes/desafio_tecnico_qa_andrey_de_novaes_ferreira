@@ -1,0 +1,6 @@
+2025-02-28 01:37:35,642 - utils.webdriver_factory - INFO - Detected Docker environment - using web:8000
+2025-02-28 01:37:35,664 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 01:37:35,666 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 01:37:35,666 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 01:37:35,666 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 01:37:38,171 - utils.webdriver_factory - INFO - Created chrome latest WebDriver instance successfully with session ID: 6cc42dd318bf6dd97babed8cfd862550

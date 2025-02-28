@@ -1,0 +1,10 @@
+{
+  "session_id": "979536aeb2591f7df331a2b98d7bab60",
+  "test_name": "test_intentional_failure[chrome]",
+  "clean_test_name": "test_intentional_failure_chrome_",
+  "browser": "chrome",
+  "browser_version": "latest",
+  "timestamp": "20250228_013802",
+  "url": "data:,",
+  "title": ""
+}

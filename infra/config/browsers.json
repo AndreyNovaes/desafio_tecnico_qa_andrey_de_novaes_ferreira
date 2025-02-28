@@ -1,0 +1,20 @@
+{
+  "chrome": {
+    "default": "latest",
+    "versions": {
+      "latest": {
+        "image": "selenoid/chrome:latest",
+        "port": "4444",
+        "path": "/",
+        "enableVNC": true,
+        "enableVideo": true,
+        "enableLog": true,
+        "screenResolution": "1920x1080x24",
+        "videoScreenSize": "1920x1080",
+        "timeZone": "America/Sao_Paulo",
+        "env": ["TZ=America/Sao_Paulo", "VERBOSE=true", "DEBUG=true", "ENABLE_VNC=true", "ENABLE_VIDEO=true"],
+        "args": ["disable-infobars=true"]
+      }
+    }
+  }
+}

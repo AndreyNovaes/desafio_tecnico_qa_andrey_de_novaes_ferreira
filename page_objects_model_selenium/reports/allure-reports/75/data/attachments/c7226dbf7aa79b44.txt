@@ -1,0 +1,9 @@
+2025-02-28 01:56:10,012 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 01:56:10,014 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 01:56:10,014 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 01:56:10,014 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 01:56:11,077 - utils.webdriver_factory - INFO - Created chrome latest WebDriver instance successfully with session ID: 6ec5aa15904953e4b9e8b99f96dfae8f
+2025-02-28 01:56:11,400 - utils.test_data - INFO - Using saved user data for: camila1976
+2025-02-28 01:56:11,401 - utils.faker_api_client - INFO - Making request to http://faker:5000/generate/user with params: {'quantity': 1, 'invalid': 'false'}
+2025-02-28 01:56:11,403 - utils.faker_api_client - INFO - Received response from http://faker:5000/generate/user with status code: 200
+2025-02-28 01:56:22,779 - RegisterPage - ERROR - Element not found: ('css selector', '.alert-error')

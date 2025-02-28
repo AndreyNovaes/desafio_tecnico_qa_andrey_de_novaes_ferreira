@@ -1,0 +1,10 @@
+2025-02-28 02:01:06,834 - utils.webdriver_factory - INFO - Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+2025-02-28 02:01:06,836 - utils.webdriver_factory - INFO - Selenoid is accessible at http://selenoid:4444/status
+2025-02-28 02:01:06,836 - utils.webdriver_factory - INFO - Selenoid version: unknown
+2025-02-28 02:01:06,837 - utils.webdriver_factory - INFO - Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+2025-02-28 02:01:08,003 - utils.webdriver_factory - INFO - Created chrome latest WebDriver instance successfully with session ID: 7abc40ed37ec513ed28e3ace7a76ff53
+2025-02-28 02:01:08,390 - utils.test_data - INFO - Using saved user data for: camila1976
+2025-02-28 02:01:19,676 - HomePage - ERROR - Element not found: ('css selector', "a.btn.btn-primary.btn-lg[href='/accounts/login/']")
+2025-02-28 02:01:30,331 - HomePage - ERROR - Element not found: ('css selector', "a.btn.btn-outline-primary.btn-lg[href='/accounts/register/']")
+2025-02-28 02:01:43,777 - HomePage - ERROR - Element not found: ('css selector', "a.nav-link[href='/accounts/login/']")
+2025-02-28 02:01:54,389 - HomePage - ERROR - Element not found: ('css selector', "a.nav-link.btn.btn-primary.text-white.px-3[href='/accounts/register/']")

@@ -1,0 +1,65 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Arquivos de configuração do ambiente
+*.env
+*.venv
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Dependências
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Banco de dados SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos de migração do Django (opcional)
+**/migrations/**/__pycache__/
+**/migrations/*.pyc
+
+# Arquivos estáticos e media gerados
+staticfiles/
+media/
+
+# Logs e dumps
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.cover
+*.DS_Store
+
+# Configurações do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos de cache do Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/

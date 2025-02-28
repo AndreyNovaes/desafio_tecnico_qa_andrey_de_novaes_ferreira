@@ -1,0 +1,5 @@
+INFO     utils.webdriver_factory:webdriver_factory.py:156 Creating chrome latest WebDriver with remote=True, remote_url=http://selenoid:4444/wd/hub
+INFO     utils.webdriver_factory:webdriver_factory.py:114 Selenoid is accessible at http://selenoid:4444/status
+INFO     utils.webdriver_factory:webdriver_factory.py:115 Selenoid version: unknown
+INFO     utils.webdriver_factory:webdriver_factory.py:314 Connecting to Selenoid at http://selenoid:4444/wd/hub with Chrome latest
+INFO     utils.webdriver_factory:webdriver_factory.py:195 Created chrome latest WebDriver instance successfully with session ID: f21ee175307154ca9d932696ac9a9f81

@@ -1,0 +1,1 @@
+Security Note: Response time should be similar for existing and non-existing emails to prevent timing attacks

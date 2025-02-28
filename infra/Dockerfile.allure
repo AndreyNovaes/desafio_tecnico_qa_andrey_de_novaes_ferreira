@@ -1,0 +1,27 @@
+FROM python:3.11-slim
+
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY allure_requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN curl -o allure-2.24.1.tgz -Ls https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.24.1/allure-commandline-2.24.1.tgz \
+    && tar -zxvf allure-2.24.1.tgz -C /opt/ \
+    && ln -s /opt/allure-2.24.1/bin/allure /usr/local/bin/allure \
+    && rm allure-2.24.1.tgz
+
+RUN mkdir -p /app/reports/allure-results /app/reports/videos
+
+COPY . .
+
+ENV PYTHONUNBUFFERED=1
+ENV ALLURE_RESULTS_DIR=/app/reports/allure-results
+ENV VIDEO_OUTPUT_DIR=/app/reports/videos
+
+CMD ["python", "-m", "pytest", "--alluredir=/app/reports/allure-results"]

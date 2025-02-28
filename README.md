@@ -45,49 +45,55 @@ O projeto implementa 16 planos de teste que cobrem todas as funcionalidades crí
 
 ## 💻 Como executar os testes
 
-### 🐳 Usando Docker e Docker-compose
-
-#### Dependências mínimas
+### Dependências mínimas
+- Python 3.10+
 - Docker: `Versão recomendada >= 20.10.x`
 - Docker Compose: `Versão recomendada >= 2.3.x`
 
-#### Clone o projeto
+### Clone o projeto
 ```bash
 git clone [URL do repositório]
 cd [pasta do projeto]
 ```
 
-#### Estrutura de diretórios
-O projeto está estruturado da seguinte forma:
-- `autenticator/` - Aplicação Django para autenticação (sistema testado)
-- `infra/` - Configurações de infraestrutura e serviços Docker
-- `page_objects_model_selenium/` - Framework de testes com Selenium
-
-#### Execute os testes
+### Configuração do ambiente virtual (opcional mas recomendado)
 ```bash
-# Navegue até a pasta de infraestrutura
-cd infra
+# Criar ambiente virtual
+python -m venv venv
 
-# Inicie toda a infraestrutura e execute os testes
-docker-compose up -d
+# Ativar ambiente virtual
+# No Windows:
+venv\Scripts\activate
+# No Linux/Mac:
+source venv/bin/activate
 
-# Para executar testes específicos
-docker-compose exec test pytest tests/login_credenciais_validas_test.py
-
-# Para executar todos os testes
-docker-compose exec test pytest tests/
+# Instalar dependências, no caso do run_tests, é utilizado os containeres então não é necessário
+pip install -r requirements.txt
 ```
 
-#### Acesse os relatórios e serviços
+### Execute os testes com o script automatizado
+A maneira mais simples de executar todos os testes é usando o script `run_tests.py`, que:
+- Verifica os pré-requisitos do sistema
+- Inicia toda a infraestrutura necessária via Docker Compose
+- Aguarda que todos os serviços estejam prontos
+- Executa o conjunto completo de testes
+- Exibe links para relatórios e ferramentas de monitoramento, como por exemplo o report do allure
+
+```bash
+python run_tests.py
+```
+
+Após a execução, você pode acessar os relatórios e serviços nos seguintes endereços:
+
 ```
 # Relatórios Allure
 http://localhost:5252
 
-# Kiwi TCMS (Gerenciamento de casos de teste)
-http://localhost:8080
-
 # Selenoid UI (visualizar sessões de teste em tempo real)
 http://localhost:4444/ui
+
+# Kiwi TCMS (Gerenciamento de casos de teste)
+http://localhost:8080
 
 # Logs dos containers (Dozzle)
 http://localhost:8888
@@ -151,6 +157,7 @@ A arquitetura permite a execução paralela de testes em múltiplos navegadores,
  ┃ ┃ ┗ 📜...
  ┃ ┣ 📜conftest.py           # Configurações do PyTest
  ┃ ┗ 📜pytest.ini            # Configurações adicionais do PyTest
+ ┣ 📜run_tests.py            # Script principal para executar os testes
  ┣ 📜Planos_de_teste.md      # Documentação dos planos de teste
  ┗ 📜README.md
 ```
@@ -166,8 +173,6 @@ Os relatórios Allure fornecem visualizações detalhadas dos resultados dos tes
 - Screenshots de falhas
 - Vídeos das sessões de teste
 - Logs detalhados
-
-![Allure Reports](docs/images/allure-report.png)
 
 ### Kiwi TCMS
 
